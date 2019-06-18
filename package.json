@@ -2,7 +2,7 @@
   "name": "node-sql",
   "version": "1.0.0",
   "description": "Connect a node.js application to a sql server",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Mauricio-xxi/node-sql/issues"
   },
-  "homepage": "https://github.com/Mauricio-xxi/node-sql#readme"
+  "homepage": "https://github.com/Mauricio-xxi/node-sql#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
 }
